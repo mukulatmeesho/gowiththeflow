@@ -1,0 +1,4 @@
+Welcome to user input machine
+Please enter your name:
+Welcome Mukul
+ Lets Go :)

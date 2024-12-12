@@ -1,0 +1,6 @@
+1
+9
+Mukul
+My name is Mukul, I am 9 years old
+Value true
+Type bool10 100 10000 1000000 1234567890
