@@ -39,12 +39,7 @@ func main() {
 func readFile(filePath string) {
 	file, err := os.Open(filePath)
 	checkError(err, "Error opening file: ")
-	defer func(file *os.File) {
-		err := file.Close()
-		if err != nil {
-
-		}
-	}(file)
+	defer file.Close()
 
 	bytes := make([]byte, 1024)
 	n, err := file.Read(bytes)
